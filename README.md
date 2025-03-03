@@ -1,6 +1,17 @@
 # Remember
+## Useful Search Engines
+* [shodan.io](https://shodan.io) (IoT devices)
+* censys.io (Servers)
+* hunter.io (Email)
+* urlscan.io (Websites)
+* grep.app (Source Code)
+* intelx.io (OSINT)
+* wigle.net (WiFi)
+* fullhunt.io (Attack Surface)
+* vulners.com (Vulnerabilities)
+* viz.greynoise.io (Threat Intel) 
 
-# Java crashes on Debian/Kali
+## Java crashes on Debian/Kali
 * Try `export JAVA_TOOL_OPTIONS="-XX:UseSVE=0"`
 
 ## Resize VM disk on a live system

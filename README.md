@@ -1,4 +1,8 @@
 # Remember
+
+# Java crashes on Debian/Kali
+* Try `export JAVA_TOOL_OPTIONS="-XX:UseSVE=0"`
+
 ## Resize VM disk on a live system
 * [Use gpartd](https://gparted.org/) as its available many *nix systems.
 * [Easy Guide to Resizing Linux Partitions Using GParted](https://medium.com/@itsnibhatt/easy-guide-to-resizing-linux-partitions-using-gparted-3567d60bf660)

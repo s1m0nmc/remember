@@ -11,8 +11,9 @@
 * vulners.com (Vulnerabilities)
 * viz.greynoise.io (Threat Intel) 
 
-## Java crashes on Debian/Kali
+## OpenJDK Java crashes on Debian/Kali VM on an M4 MBP
 * Try `export JAVA_TOOL_OPTIONS="-XX:UseSVE=0"`
+  *  Disables use of the Arm AArch64 [SVE extension]([url](https://developer.arm.com/documentation/102476/0101/Introducing-SVE)) for which there is a [bug in the OpenJDK Java library]([url](https://bugs.openjdk.org/browse/JDK-8345296)).
 
 ## Resize VM disk on a live system
 * [Use gpartd](https://gparted.org/) as its available many *nix systems.
